@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+     font-family: 'Montserrat', sans-serif;
+ }
+
+.avatar-user {
+    border-radius: 50%!important;
+}
+
+body {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+#channels {
+    max-height: 90%;
+    overflow-y: auto;
+}

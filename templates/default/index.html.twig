@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<div class="container-fluid my-3">
+    <div class="list-group">
+        <a href="http://localhost:1337/" target="_blank" class="list-group-item list-group-item-action">
+            <i class="fa fa-chart-network mr-3"></i>
+            Mercure debug tool
+        </a>
+        <a href="{{ url('room') }}" target="_blank" class="list-group-item list-group-item-action">
+            <i class="fa fa-comments mr-3"></i>
+            Mercure chat
+        </a>
+    </div>
+</div>
+{% endblock %}
