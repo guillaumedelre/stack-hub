@@ -149,7 +149,7 @@
         }
 
         let sendMessage = function () {
-            fetch('https://localhost/room/publish?message='
+            fetch('https://localhost:8443/room/publish?message='
                 + encodeURI(
                     document.querySelector('#message_text').value
                     + '&channel=' + channel
